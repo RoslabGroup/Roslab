@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://roslab.cc/sitemap.xml
+Sitemap: https://doc.roslab.cc/sitemap.xml
