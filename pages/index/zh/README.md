@@ -10,7 +10,7 @@ id: home_page
 
 
 <div>
-    <h1><span>my_site</span></h1>
+    <h1><span>大球的新坑</span></h1>
     <h3>好耶~ 网站出现啦！</h3>
 </div>
 <div id="big_btn_wrapper">
