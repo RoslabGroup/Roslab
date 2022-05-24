@@ -137,12 +137,12 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li>在本文件所在目录创建 markdown 以  <code>.md</code> 结尾的文件，比如 <code>first.md</code></li>
 <li>在 <code>sidebar.yaml</code> 中添加侧边栏链接</li>
 </ul>
-<pre><code class="lang-markdown">items:
+
+<pre class="language-markdown"><code class="language-markdown">items:
 -   label: Brief
     file: README.md
 -   label: First
-    file: first.md
-</code></pre>
+    file: first.md</code></pre>
 <h2 id="%E6%9B%B4%E5%A4%9A%E4%BE%8B%E5%AD%90">更多例子</h2>
 <p>更多请访问: <a href="https://teedoc.neucrack.com/"  target="_blank">teedoc.neucrack.com</a> 或者 <a href="https://teedoc.github.io/"  target="_blank">teedoc.github.io</a></p>
 <p>更多例子访问: <a href="https://github.com/teedoc/teedoc.github.io"  target="_blank">github.com/teedoc/teedoc.github.io</a> 或者 <a href="https://github.com/teedoc/template"  target="_blank">https://github.com/teedoc/template</a> , 或 <a href="https://github.com/sipeed/sipeed_wiki"  target="_blank">sipeed wiki</a></p>
@@ -194,6 +194,10 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             </div>
         </div>
     </div>
+    
+        <script src="/teedoc-plugin-markdown-parser/mermaid.min.js"></script>
+    
+        <script>mermaid.initialize({startOnLoad:true});</script>
     
         <script src="/static/js/theme_default/tocbot.min.js"></script>
     

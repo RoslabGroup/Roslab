@@ -96,18 +96,6 @@ function registerSidebarClick(){
             a_obj.children(".sub_indicator").addClass("sub_indicator_collapsed");
         }
     }
-    $("#sidebar ul li > a").bind("click", function(e){
-        var is_click_indicator = $(e.target).hasClass("sub_indicator");
-        var a_obj = $(this);
-        if(a_obj.attr("href") == window.location.pathname){
-            show_collapse_item(a_obj);
-            return false;
-        }
-        show_collapse_item(a_obj);
-        if(is_click_indicator){ // click indicator, only collapse, not jump to link
-            return false;
-        }
-    });
     $("#menu").bind("click", function(e){
         menu_toggle();
     });
@@ -132,6 +120,20 @@ function registerSidebarClick(){
         return false;
     });
     $("#sidebar ul li > a").bind("click", function(e){
+        var is_click_indicator = $(e.target).hasClass("sub_indicator");
+        var a_obj = $(this);
+        if(a_obj.attr("href") == window.location.pathname){
+            show_collapse_item(a_obj);
+            return false;
+        }
+        show_collapse_item(a_obj);
+        if(is_click_indicator){ // click indicator, only collapse, not jump to link
+            return false;
+        }
+        var screenW = $(window).width();
+        if(screenW > 900){
+            return;
+        }
         link_href = $(this).attr("href").split(location.host);
         if(link_href.length > 1){
             link_href = link_href[1];
@@ -216,7 +218,7 @@ function addSequence(){
     var headings = tocbot._parseContent.selectHeadings(document.getElementById("article_content"), tocbot.options.headingSelector);
     var counth2=0, counth3=0, counth4=0;
     var html = document.getElementsByTagName("html")[0];
-    var isZh = html.lang.substr(0, 2).toLowerCase() == "zh";
+    var isZh = html.lang.substring(0, 2).toLowerCase() == "zh";
     for(var i=0; i<html.classList.length; ++i){
         if(html.classList[i] == "heading_no_counter"){
             return;

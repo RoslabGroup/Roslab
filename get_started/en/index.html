@@ -137,12 +137,12 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li>Create markdown file with file name end with <code>.md</code> in the directory of this file, e.g. <code>first.md</code></li>
 <li>Add link in <code>sidebar.yaml</code></li>
 </ul>
-<pre><code class="lang-markdown">items:
+
+<pre class="language-markdown"><code class="language-markdown">items:
 -   label: Brief
     file: README.md
 -   label: First
-    file: first.md
-</code></pre>
+    file: first.md</code></pre>
 <h2 id="More-example">More example</h2>
 <p>More visit: <a href="https://teedoc.neucrack.com/"  target="_blank">teedoc.neucrack.com</a> or <a href="https://teedoc.github.io/"  target="_blank">teedoc.github.io</a></p>
 <p>And more example see: <a href="https://github.com/teedoc/teedoc.github.io"  target="_blank">github.com/teedoc/teedoc.github.io</a> and <a href="https://github.com/teedoc/template"  target="_blank">https://github.com/teedoc/template</a> , and <a href="https://github.com/sipeed/sipeed_wiki"  target="_blank">sipeed wiki</a></p>
@@ -193,6 +193,10 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             </div>
         </div>
     </div>
+    
+        <script src="/teedoc-plugin-markdown-parser/mermaid.min.js"></script>
+    
+        <script>mermaid.initialize({startOnLoad:true});</script>
     
         <script src="/static/js/theme_default/tocbot.min.js"></script>
     
