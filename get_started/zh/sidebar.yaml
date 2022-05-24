@@ -1,3 +1,5 @@
 items:
 -   label: 简介
+    file: README.md   
+-   label: 心理学导论
     file: README.md
