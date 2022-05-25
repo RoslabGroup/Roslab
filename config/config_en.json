@@ -1,7 +1,7 @@
 {
     "locale": "en",
     "navbar": {
-        "title": "teedoc",
+        "title": "Roslab",
         "logo": {
             "alt": "teedoc logo",
             "src": "/static/image/logo.png"
