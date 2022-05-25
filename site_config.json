@@ -72,7 +72,7 @@
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#4caf7d"
+                    "main_color": "#1a416a"
                 }
             }
         },
@@ -112,8 +112,8 @@
                     "repo": "teedoc.github.io",
                     "owner": "teedoc",
                     "admin": ["Neutree"],
-                    "main_color": "#4caf7d",
-                    "second_color": "#0a7d43"
+                    "main_color": "#1a416a",
+                    "second_color": "#65819b"
                 }
             }
         },
@@ -127,8 +127,8 @@
                     "/static/js/custom.js"
                 ],
                 "env":{
-                    "main_color": "#4caf7d",
-                    "second_color": "#0a7d43"
+                    "main_color": "#1a416a",
+                    "second_color": "#65819b"
                 }
             }
         }

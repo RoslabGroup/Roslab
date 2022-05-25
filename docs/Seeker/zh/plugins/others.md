@@ -72,7 +72,7 @@ desc: teedoc 其它插件
         "config": {
             "search_hint": "Search",
             "env": {
-                "main_color": "#4caf7d",
+                "main_color": "#1a416a",
                 "main_color_dark": "#1b4c33",
                 "hint_shadow_color": "rgba(76, 175, 125, 0.38)"
             }
@@ -106,7 +106,7 @@ desc: teedoc 其它插件
 * `other_docs_result_hint`: 搜索结果提示，其它文档中的搜索结果， 默认`Result from other docs`
 * `curr_doc_result_hint`: 搜索结果提示，当前浏览的文档中的搜索结果， 默认`Result from current doc`
 * `env`: 替换部分颜色， 包括
-  * `main_color`: 主颜色， 默认`"#4caf7d"`
+  * `main_color`: 主颜色， 默认`"#1a416a"`
   * `main_color_dark`: 黑色主题主颜色， 默认`"#1b4c33"`
   * `hint_shadow_color`: 阴影颜色，默认`rgba(76, 175, 125, 0.38)`
 
@@ -193,8 +193,8 @@ var _hmt = _hmt || [];
                 "repo": "repo name",
                 "owner": "orgnization name or user name",
                 "admin": ["user names have write access"],
-                "main_color": "#4caf7d",
-                "second_color": "#0a7d43"
+                "main_color": "#1a416a",
+                "second_color": "#65819b"
             },
         }
     }

@@ -70,7 +70,7 @@ To use, add to the `plugins` keyword in `site_config.json`:
         "config": {
             "search_hint": "Search",
             "env": {
-                "main_color": "#4caf7d",
+                "main_color": "#1a416a",
                 "main_color_dark": "#1b4c33",
                 "hint_shadow_color": "rgba(76, 175, 125, 0.38)"
             }
@@ -104,7 +104,7 @@ The supported configurations are as follows:
 * `other_docs_result_hint`: search result hint, search result in other documents, default `Result from other docs`
 * `curr_doc_result_hint`: search result hint, the search result in the currently browsed document, default `Result from current doc`
 * `env`: Replace some colors, including
-   * `main_color`: main color, default `"#4caf7d"`
+   * `main_color`: main color, default `"#1a416a"`
    * `main_color_dark`: main color of black theme, default `"#1b4c33"`
    * `hint_shadow_color`: shadow color, default `rgba(76, 175, 125, 0.38)`
 

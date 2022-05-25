@@ -20,7 +20,7 @@ desc: teedoc 主题插件
                 "mobile_navbar_collapsed": true,
                 "toc_depth": 4,
                 "env":{
-                    "main_color": "#4caf7d",
+                    "main_color": "#1a416a",
                     "sidebar_width": "300px"
                 },
                 "css": "/static/css/custom.css",
