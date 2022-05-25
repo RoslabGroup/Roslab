@@ -103,13 +103,13 @@ cover: ./assets/cover.jpg
                 "position": "left"
             },
             {
-                "url": "/Seeker/zh/",
-                "label": "Seeker",
+                "url": "/Rover/zh/",
+                "label": "Rover",
                 "position": "left"
             },
             {
-                "url": "/rover/zh/",
-                "label": "Rover",
+                "url": "/Seeker/zh/",
+                "label": "Seeker",
                 "position": "left"
             },
             {

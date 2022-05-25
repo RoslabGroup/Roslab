@@ -9,13 +9,13 @@
         "home_url": "/en/",
         "items": [
             {
-                "url": "/Seeker/en/",
-                "label": "Seeker",
+                "url": "/Rover/en/",
+                "label": "Rover",
                 "position": "left"
             },
             {
-                "url": "/Rover/en/",
-                "label": "Rover",
+                "url": "/Seeker/en/",
+                "label": "Seeker",
                 "position": "left"
             },
             {
