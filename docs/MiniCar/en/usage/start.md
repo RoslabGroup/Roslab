@@ -352,7 +352,7 @@ Then you can add the configuration of the current document, overwrite the templa
         "items": [
             {
                 "url": "/MiniCar/zh/",
-                "label": "安装使用",
+                "label": "MiniCar",
                 "position": "left"
             },
             {

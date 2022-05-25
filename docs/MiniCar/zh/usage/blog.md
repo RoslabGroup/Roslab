@@ -104,7 +104,7 @@ cover: ./assets/cover.jpg
             },
             {
                 "url": "/MiniCar/zh/",
-                "label": "安装使用",
+                "label": "MiniCar",
                 "position": "left"
             },
             {

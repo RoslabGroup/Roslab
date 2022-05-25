@@ -1,5 +1,5 @@
 ---
-title: teedoc 安装使用
+title: teedoc MiniCar
 keywords: teedoc, markdown, jupyter notebook, html, 文档生成, 替代gitbook, 网站生成, 静态网站, 安装, 使用
 desc: teedoc， 将 markdown 或者 jupyter notbook 转换成 html 静态网页， 介绍了 teedoc 的使用方法
 ---

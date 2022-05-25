@@ -250,7 +250,7 @@ teedoc -f ./SUMMARY.md summary2yaml
         "items": [
             {
                 "url": "/MiniCar/zh/",
-                "label": "安装使用",
+                "label": "MiniCar",
                 "position": "left"
             },
             {
@@ -352,7 +352,7 @@ teedoc -f ./SUMMARY.md summary2yaml
         "items": [
             {
                 "url": "/MiniCar/zh/",
-                "label": "安装使用",
+                "label": "MiniCar",
                 "position": "left"
             },
             {
