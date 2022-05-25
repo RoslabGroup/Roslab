@@ -72,7 +72,7 @@ var _hmt = _hmt || [];
             <div>
                 <ul id="nav_left">
 <li class="active"><a  href="/MiniCar/en/">MiniCar</a></li>
-<li class=""><a  href="/develop/en/">Develop</a></li>
+<li class=""><a  href="/Rover/en/">Rover</a></li>
 <li class=""><a  href="/blog/">blog</a></li>
 </ul>
 
@@ -232,7 +232,7 @@ pybabel --list-locales</code></pre>
 <pre class="language-json"><code class="language-json">    "route": {
         "docs": {
             "/MiniCar/zh/": "docs/MiniCar/zh",
-            "/develop/zh/": "docs/develop/zh",
+            "/rover/zh/": "docs/rover/zh",
         },
         "pages": {
             "/": "pages/index/zh",
@@ -250,9 +250,9 @@ pybabel --list-locales</code></pre>
                     "src": "docs/MiniCar/en"
                 }
             ],
-            "/develop/zh/": [{
-                    "url": "/develop/en/",
-                    "src": "docs/develop/en"
+            "/rover/zh/": [{
+                    "url": "/rover/en/",
+                    "src": "docs/rover/en"
                 }
             ]
         },
@@ -264,7 +264,7 @@ pybabel --list-locales</code></pre>
             ]
         }
     },</code></pre>
-<p>There are two documents <code>"/MiniCar/zh/"</code> and <code>"/develop/zh/"</code>, and the page <code>"/"</code>, both of which are Chinese documents.<br>
+<p>There are two documents <code>"/MiniCar/zh/"</code> and <code>"/rover/zh/"</code>, and the page <code>"/"</code>, both of which are Chinese documents.<br>
 Now we need to add English translations for their three documents, respectively add translations under <code>translate</code> -&gt; <code>docs</code>, the translated documents need to specify <code>url</code> (generated path, end with <code>/</code>) and <code>src</code> (translation The root directory of the document, the end of <code>/</code> is not required)</p>
 <p>Then</p>
 <ul>

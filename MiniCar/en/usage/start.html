@@ -72,7 +72,7 @@ var _hmt = _hmt || [];
             <div>
                 <ul id="nav_left">
 <li class="active"><a  href="/MiniCar/en/">MiniCar</a></li>
-<li class=""><a  href="/develop/en/">Develop</a></li>
+<li class=""><a  href="/Rover/en/">Rover</a></li>
 <li class=""><a  href="/blog/">blog</a></li>
 </ul>
 
@@ -278,7 +278,7 @@ It can also be set in the document configuration, see the description of the con
     "route": {
         "docs": {
             "/MiniCar/zh/": "docs/MiniCar/zh",
-            "/develop/zh/": "docs/develop/zh",
+            "/rover/zh/": "docs/rover/zh",
         },
         "pages": {
             "/": "pages/index/zh",
@@ -296,9 +296,9 @@ It can also be set in the document configuration, see the description of the con
                     "src": "docs/MiniCar/en"
                 }
             ],
-            "/develop/zh/": [ {
-                    "url": "/develop/en/",
-                    "src": "docs/develop/en"
+            "/rover/zh/": [ {
+                    "url": "/rover/en/",
+                    "src": "docs/rover/en"
                 }
             ]
         },
@@ -345,8 +345,8 @@ It can also be set in the document configuration, see the description of the con
 <pre class="language-json"><code class="language-json">"docs": {
   "/MiniCar/zh/": "docs/MiniCar/zh",
   "/MiniCar/en/": "docs/MiniCar/en",
-  "/develop/zh/": "docs/develop/zh",
-  "/develop/en/": "docs/develop/en"
+  "/rover/zh/": "docs/rover/zh",
+  "/rover/en/": "docs/rover/en"
 },</code></pre>
 The <code>key</code> represents the <code>url</code> of the document in the final generated website, and the following value is the corresponding source document path.<br>
 For example, the source document <code>docs/MiniCar/zh/README.md</code> will generate the file <code>out/MiniCar/zh/index.html</code> after construction. If it is not a <code>md</code> file (ie unsupported file), it will be left intact Copy files automatically, and finally the <code>out</code> directory is the generated website</li>
@@ -390,8 +390,8 @@ The configuration items are determined by the specific plug-in. For example, <co
                 "position": "left"
             },
             {
-                "url": "/develop/zh/",
-                "label": "Development",
+                "url": "/rover/zh/",
+                "label": "Rover",
                 "position": "left"
             },
             {
