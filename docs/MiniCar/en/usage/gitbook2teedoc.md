@@ -45,7 +45,7 @@ In addition, create a folder `books/res/` for the resource files, copy all the f
 
 ## Create configuration for each document
 
-Copy the `config.json` and `sidebar.yaml` files from the `docs/get_started/zh/` directory to `books/re0/ch/` and `books/re0/jp/`
+Copy the `config.json` and `sidebar.yaml` files from the `docs/MiniCar/zh/` directory to `books/re0/ch/` and `books/re0/jp/`
 
 Each directory with `config.json` is equivalent to **a document**, or **a book**
 
@@ -78,18 +78,18 @@ Because `re0-web` project source file pictures use absolute path `url` such as `
 
 In addition, a relative path can be used in the source file, but the directory must be in the same document, such as in this document (click on the upper right corner to edit this page to see the source code), `![](../assets/images/logo. png)`: ![](../assets/images/logo.png)
 
-Because the `assets` directory is also under the `get_started/zh/` directory, it can be directly referenced, but directories beyond the scope of this document cannot be directly referenced by relative paths.
+Because the `assets` directory is also under the `MiniCar/zh/` directory, it can be directly referenced, but directories beyond the scope of this document cannot be directly referenced by relative paths.
 
 
-But there are also ways to achieve it, such as quoting the resources in the `get_started/assets/` directory here, which can also be referenced in the `get_started/zh/` directory, just need to configure the `route` cleverly, as follows:
+But there are also ways to achieve it, such as quoting the resources in the `MiniCar/assets/` directory here, which can also be referenced in the `MiniCar/zh/` directory, just need to configure the `route` cleverly, as follows:
 default
 ```json
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
+            "/MiniCar/zh/": "docs/MiniCar/zh",
         },
         "assets": {
-            "/get_started/assets/": "docs/get_started/assets"
+            "/MiniCar/assets/": "docs/MiniCar/assets"
         },
 ```
 

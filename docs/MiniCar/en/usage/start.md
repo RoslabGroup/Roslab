@@ -52,7 +52,7 @@ The built document will be placed in the `out` directory, the program will not a
 │ ├─develop
 │ │ ├─en
 │ │ └─zh
-│ └─get_started
+│ └─MiniCar
 │ ├─assets
 │ ├─en
 │ └─zh
@@ -135,7 +135,7 @@ The configuration file is in `json` format, for example:
     "source": "https://github.com/teedoc/teedoc.github.io/blob/main",
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
+            "/MiniCar/zh/": "docs/MiniCar/zh",
             "/develop/zh/": "docs/develop/zh",
         },
         "pages": {
@@ -143,15 +143,15 @@ The configuration file is in `json` format, for example:
         },
         "assets": {
             "/static/": "static",
-            "/get_started/assets/": "docs/get_started/assets"
+            "/MiniCar/assets/": "docs/MiniCar/assets"
         },
         "/blog/": "blog"
     },
     "translate": {
         "docs": {
-            "/get_started/zh/": [ {
-                    "url": "/get_started/en/",
-                    "src": "docs/get_started/en"
+            "/MiniCar/zh/": [ {
+                    "url": "/MiniCar/en/",
+                    "src": "docs/MiniCar/en"
                 }
             ],
             "/develop/zh/": [ {
@@ -204,14 +204,14 @@ The configuration file is in `json` format, for example:
 * `route`: Web page routing, including routing of documents, pages and resource files, such as routing of documents
 ```json
 "docs": {
-    "/get_started/zh/": "docs/get_started/zh",
-    "/get_started/en/": "docs/get_started/en",
+    "/MiniCar/zh/": "docs/MiniCar/zh",
+    "/MiniCar/en/": "docs/MiniCar/en",
     "/develop/zh/": "docs/develop/zh",
     "/develop/en/": "docs/develop/en"
 },
 ```
 The `key` represents the `url` of the document in the final generated website, and the following value is the corresponding source document path.
-For example, the source document `docs/get_started/zh/README.md` will generate the file `out/get_started/zh/index.html` after construction. If it is not a `md` file (ie unsupported file), it will be left intact Copy files automatically, and finally the `out` directory is the generated website
+For example, the source document `docs/MiniCar/zh/README.md` will generate the file `out/MiniCar/zh/index.html` after construction. If it is not a `md` file (ie unsupported file), it will be left intact Copy files automatically, and finally the `out` directory is the generated website
 
 The same is true for `pages`, `assets` will not perform document conversion and directly copy to the corresponding directory
 
@@ -229,7 +229,7 @@ The configuration items are determined by the specific plug-in. For example, `te
 
 ## config.json document configuration
 
-This is the configuration for each document, placed in the root directory of each document, such as `docs/get_started/zh/config.json`, each document is independent of each other, you can set the same to keep the website navigation bar consistent
+This is the configuration for each document, placed in the root directory of each document, such as `docs/MiniCar/zh/config.json`, each document is independent of each other, you can set the same to keep the website navigation bar consistent
 
 Here you can configure the navigation bar of each document and the content of the footer (`footer`), and you can also set the `config` item of the plug-in. The current document will override the configuration in `site_config.json` to achieve different Documents in different languages ​​(internationalization/i18n) or styles, etc.
 
@@ -249,7 +249,7 @@ such as:
         "home_url": "/",
         "items": [
             {
-                "url": "/get_started/zh/",
+                "url": "/MiniCar/zh/",
                 "label": "Installation and Use",
                 "position": "left"
             },
@@ -269,11 +269,11 @@ such as:
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh/",
+                        "url": "/MiniCar/zh/",
                         "label": "Chinese"
                     },
                     {
-                        "url": "/get_started/en/",
+                        "url": "/MiniCar/en/",
                         "label": "English"
                     }
                 ]
@@ -351,7 +351,7 @@ Then you can add the configuration of the current document, overwrite the templa
         "title": "teedoc",
         "items": [
             {
-                "url": "/get_started/zh/",
+                "url": "/MiniCar/zh/",
                 "label": "安装使用",
                 "position": "left"
             },
@@ -387,11 +387,11 @@ The configuration file of a specific document:
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh",
+                        "url": "/MiniCar/zh",
                         "label": "中文"
                     },
                     {
-                        "url": "/get_started/en",
+                        "url": "/MiniCar/en",
                         "label": "English"
                     }
                 ]
@@ -425,7 +425,7 @@ There is a directory for setting documents, one for each document, independent o
 
 The file path uses a relative path, just fill in the file name, `README.md` will be automatically converted to `index.html`
 
-In addition, you can also directly `url` without writing the path of `file`, such as `"url": "/get_started/zh/"`, at the same time you can set `"target":"_blank"` to open in a new window, otherwise Open in current window
+In addition, you can also directly `url` without writing the path of `file`, such as `"url": "/MiniCar/zh/"`, at the same time you can set `"target":"_blank"` to open in a new window, otherwise Open in current window
 
 For the items in the first layer of `items`, if there is only `label` without `url`, `file` and `items`, a classification mark will be added to the sidebar, and the effect is as follows:
 ![](../../assets/images/sidebar.png)

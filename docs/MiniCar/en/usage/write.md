@@ -45,8 +45,8 @@ Resource files will be copied to the output folder (`out`), so the most importan
 
 Use relative paths:
 
-Resource files can be placed in the corresponding directory of the document, such as the document `docs/get_started/zh`, you can create `docs/get_started/zh/assets/images/logo.png`,
-Then use relative path references in `docs/get_started/zh/README.md`, namely `![](assets/images/logo.png)`
+Resource files can be placed in the corresponding directory of the document, such as the document `docs/MiniCar/zh`, you can create `docs/MiniCar/zh/assets/images/logo.png`,
+Then use relative path references in `docs/MiniCar/zh/README.md`, namely `![](assets/images/logo.png)`
 
 ### Advanced method
 
@@ -57,14 +57,14 @@ Use resources outside the document path, configure in `site_config.json`
 {
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
+            "/MiniCar/zh/": "docs/MiniCar/zh",
         },
         "assets": {
-            "/get_started/assets/": "docs/get_started/assets"
+            "/MiniCar/assets/": "docs/MiniCar/assets"
         }
     }
 }
 ```
-This setting will copy the entire directory of `docs/get_started/assets` to `/get_started/assets`
-So only need to use relative path reference in `docs/get_started/zh/README.md`, namely `![](../assets/images/logo.png)`
+This setting will copy the entire directory of `docs/MiniCar/assets` to `/MiniCar/assets`
+So only need to use relative path reference in `docs/MiniCar/zh/README.md`, namely `![](../assets/images/logo.png)`
 
