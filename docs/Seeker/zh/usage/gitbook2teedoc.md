@@ -45,7 +45,7 @@ teedoc install
 
 ## 为每份文档建立配置
 
-从 `docs/MiniCar/zh/`目录下复制`config.json` 和 `sidebar.yaml` 文件到`books/re0/ch/`和`books/re0/jp/`
+从 `docs/Seeker/zh/`目录下复制`config.json` 和 `sidebar.yaml` 文件到`books/re0/ch/`和`books/re0/jp/`
 
 每个有`config.json` 的目录就相当于是 **一份文档**, 或者说 **一本书籍**
 
@@ -78,18 +78,18 @@ teedoc install
 
 另外源文件内可以用相对路径, 但是目录必须在同一个份文档内, 比如在本文档(点击右上角编辑本页可以看到源码), `![](../assets/images/logo.png)`: ![](../assets/images/logo.png)
 
-因为`assets`目录也在`MiniCar/zh/`目录下, 所以可以直接引用, 但是超出这份文档范围的目录就不可以直接用相对路径引用了.
+因为`assets`目录也在`Seeker/zh/`目录下, 所以可以直接引用, 但是超出这份文档范围的目录就不可以直接用相对路径引用了.
 
 
-但是也有办法实现, 比如在这里引用`MiniCar/assets/`目录下的资源,在`MiniCar/zh/`目录下也可以引用, 只需要巧妙地配置一下 `route`, 如下:
+但是也有办法实现, 比如在这里引用`Seeker/assets/`目录下的资源,在`Seeker/zh/`目录下也可以引用, 只需要巧妙地配置一下 `route`, 如下:
 默认
 ```json
     "route": {
         "docs": {
-            "/MiniCar/zh/": "docs/MiniCar/zh",
+            "/Seeker/zh/": "docs/Seeker/zh",
         },
         "assets": {
-            "/MiniCar/assets/": "docs/MiniCar/assets"
+            "/Seeker/assets/": "docs/Seeker/assets"
         },
 ```
 

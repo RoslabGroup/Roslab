@@ -45,8 +45,8 @@ desc: teedoc 的 markdown 语法介绍和实例
 
 使用相对路径：
 
-资源文件可以放在文档对应的目录，比如文档`docs/MiniCar/zh`， 可以创建`docs/MiniCar/zh/assets/images/logo.png`,
-然后在`docs/MiniCar/zh/README.md`中使用相对路径引用，即`![](assets/images/logo.png)`
+资源文件可以放在文档对应的目录，比如文档`docs/Seeker/zh`， 可以创建`docs/Seeker/zh/assets/images/logo.png`,
+然后在`docs/Seeker/zh/README.md`中使用相对路径引用，即`![](assets/images/logo.png)`
 
 ### 进阶方法
 
@@ -57,15 +57,15 @@ desc: teedoc 的 markdown 语法介绍和实例
 {
     "route": {
         "docs": {
-            "/MiniCar/zh/": "docs/MiniCar/zh",
+            "/Seeker/zh/": "docs/Seeker/zh",
         },
         "assets": {
-            "/MiniCar/assets/": "docs/MiniCar/assets"
+            "/Seeker/assets/": "docs/Seeker/assets"
         }
     }
 }
 ```
-这个设置会将`docs/MiniCar/assets`整个目录拷贝为`/MiniCar/assets`
-所以只需要在`docs/MiniCar/zh/README.md`中使用相对路径引用，即`![](../assets/images/logo.png)`
+这个设置会将`docs/Seeker/assets`整个目录拷贝为`/Seeker/assets`
+所以只需要在`docs/Seeker/zh/README.md`中使用相对路径引用，即`![](../assets/images/logo.png)`
 
 

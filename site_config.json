@@ -8,7 +8,7 @@
     "source": "https://github.com/teedoc/teedoc.github.io/blob/main",
     "route": {
         "docs": {
-            "/MiniCar/zh/": "docs/MiniCar/zh",
+            "/Seeker/zh/": "docs/Seeker/zh",
             "/Rover/zh/": "docs/Rover/zh"
         },
         "pages": {
@@ -16,7 +16,7 @@
         },
         "assets": {
             "/static/": "static",
-            "/MiniCar/assets/": "docs/MiniCar/assets"
+            "/Seeker/assets/": "docs/Seeker/assets"
         },
         "blog": {
             "/blog/": "blog"
@@ -24,9 +24,9 @@
     },
     "translate": {
         "docs": {
-            "/MiniCar/zh/": [ {
-                    "url": "/MiniCar/en/",
-                    "src": "docs/MiniCar/en"
+            "/Seeker/zh/": [ {
+                    "url": "/Seeker/en/",
+                    "src": "docs/Seeker/en"
                 }
             ],
             "/Rover/zh/": [ {

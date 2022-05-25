@@ -52,7 +52,7 @@ teedoc -d /home/teedoc/my_doc build
 │  ├─develop
 │  │  ├─en
 │  │  └─zh
-│  └─MiniCar
+│  └─Seeker
 │      ├─assets
 │      ├─en
 │      └─zh
@@ -135,7 +135,7 @@ teedoc -f ./SUMMARY.md summary2yaml
     "source": "https://github.com/teedoc/teedoc.github.io/blob/main",
     "route": {
         "docs": {
-            "/MiniCar/zh/": "docs/MiniCar/zh",
+            "/Seeker/zh/": "docs/Seeker/zh",
             "/rover/zh/": "docs/rover/zh",
         },
         "pages": {
@@ -143,15 +143,15 @@ teedoc -f ./SUMMARY.md summary2yaml
         },
         "assets": {
             "/static/": "static",
-            "/MiniCar/assets/": "docs/MiniCar/assets"
+            "/Seeker/assets/": "docs/Seeker/assets"
         },
         "/blog/": "blog"
     },
     "translate": {
         "docs": {
-            "/MiniCar/zh/": [ {
-                    "url": "/MiniCar/en/",
-                    "src": "docs/MiniCar/en"
+            "/Seeker/zh/": [ {
+                    "url": "/Seeker/en/",
+                    "src": "docs/Seeker/en"
                 }
             ],
             "/rover/zh/": [ {
@@ -204,14 +204,14 @@ teedoc -f ./SUMMARY.md summary2yaml
 * `route`: 网页路由，包含了文档和页面以及资源文件的路由，比如文档的路由
 ```json
 "docs": {
-    "/MiniCar/zh/": "docs/MiniCar/zh",
-    "/MiniCar/en/": "docs/MiniCar/en",
+    "/Seeker/zh/": "docs/Seeker/zh",
+    "/Seeker/en/": "docs/Seeker/en",
     "/rover/zh/": "docs/rover/zh",
     "/rover/en/": "docs/rover/en"
 },
 ```
 `key`代表了最终生成的网站中文档的`url`, 后面的值则是对应的源文档路径，
-比如源文档`docs/MiniCar/zh/README.md`，构建后会生成文件`out/MiniCar/zh/index.html`, 如果不是`md`文件（即不支持的文件），则会原封不动地拷贝文件，最后`out`目录就是生成的网站
+比如源文档`docs/Seeker/zh/README.md`，构建后会生成文件`out/Seeker/zh/index.html`, 如果不是`md`文件（即不支持的文件），则会原封不动地拷贝文件，最后`out`目录就是生成的网站
 
 `pages`同理，`assets`则不会进行文档转换，直接拷贝到相应的目录
 
@@ -228,7 +228,7 @@ teedoc -f ./SUMMARY.md summary2yaml
 
 ## config.json 文档配置
 
-这是针对每个文档的配置，放在每个文档的根目录， 比如`docs/MiniCar/zh/config.json`， 各个文档相互独立，可以设置一样的来保持网站导航栏一致
+这是针对每个文档的配置，放在每个文档的根目录， 比如`docs/Seeker/zh/config.json`， 各个文档相互独立，可以设置一样的来保持网站导航栏一致
 
 在这里面可以配置每个文档的导航栏， 以及页尾（`footer`）的内容, 也可以设置插件的`config`项，在当前文档会覆盖`site_config.json`中的配置，从而实现不同文档不同语言（国际化/i18n）或者样式等
 
@@ -249,8 +249,8 @@ teedoc -f ./SUMMARY.md summary2yaml
         "home_url": "/",
         "items": [
             {
-                "url": "/MiniCar/zh/",
-                "label": "MiniCar",
+                "url": "/Seeker/zh/",
+                "label": "Seeker",
                 "position": "left"
             },
             {
@@ -270,11 +270,11 @@ teedoc -f ./SUMMARY.md summary2yaml
                 "type": "selection",
                 "items": [
                     {
-                        "url": "/MiniCar/zh/",
+                        "url": "/Seeker/zh/",
                         "label": "中文"
                     },
                     {
-                        "url": "/MiniCar/en/",
+                        "url": "/Seeker/en/",
                         "label": "English"
                     }
                 ]
@@ -351,8 +351,8 @@ teedoc -f ./SUMMARY.md summary2yaml
         "title": "teedoc",
         "items": [
             {
-                "url": "/MiniCar/zh/",
-                "label": "MiniCar",
+                "url": "/Seeker/zh/",
+                "label": "Seeker",
                 "position": "left"
             },
             {
@@ -387,11 +387,11 @@ teedoc -f ./SUMMARY.md summary2yaml
                 "position": "right",
                 "items": [
                     {
-                        "url": "/MiniCar/zh",
+                        "url": "/Seeker/zh",
                         "label": "中文"
                     },
                     {
-                        "url": "/MiniCar/en",
+                        "url": "/Seeker/en",
                         "label": "English"
                     }
                 ]
@@ -425,7 +425,7 @@ pybabel --list-locales
 
 文件路径使用相对路径，填文件名即可， `README.md` 会被自动转换成`index.html`
 
-另外也可以不写`file`路径，直接`url`， 比如`"url": "/MiniCar/zh/"`, 同时可以设置`"target":"_blank"` 在新窗口打开，不设置则在当前窗口打开
+另外也可以不写`file`路径，直接`url`， 比如`"url": "/Seeker/zh/"`, 同时可以设置`"target":"_blank"` 在新窗口打开，不设置则在当前窗口打开
 
 第一层 `items`中的项目，如果只有`label`，没有`url`，`file`和 `items`， 则会在侧边栏中添加一个分类标记,效果如下：
 ![](../../assets/images/sidebar.png)

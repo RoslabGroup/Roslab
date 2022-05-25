@@ -22,7 +22,7 @@ id: home_page
                 <a href="#" id="learn_more">Learn More</a>
             </div>
             <div class="big_btn">
-                <a href="/MiniCar/en/">MiniCar</a>
+                <a href="/Seeker/en/">Seeker</a>
             </div>
         </div>
     </div>
@@ -101,10 +101,10 @@ id: home_page
     <div class="section" style="height: 100vh;">
         <div class="big_btn_wrapper">
             <div class="big_btn">
-                <a href="/MiniCar/zh/">More Detail</a>
+                <a href="/Seeker/zh/">More Detail</a>
             </div>
             <div class="big_btn">
-                <a href="/MiniCar/zh/usage/quick_start.html">Quick Start</a>
+                <a href="/Seeker/zh/usage/quick_start.html">Quick Start</a>
             </div>
         </div>
     </div>

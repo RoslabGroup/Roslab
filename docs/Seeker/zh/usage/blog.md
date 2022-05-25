@@ -103,8 +103,8 @@ cover: ./assets/cover.jpg
                 "position": "left"
             },
             {
-                "url": "/MiniCar/zh/",
-                "label": "MiniCar",
+                "url": "/Seeker/zh/",
+                "label": "Seeker",
                 "position": "left"
             },
             {

@@ -9,8 +9,8 @@
         "home_url": "/",
         "items": [
             {
-                "url": "/MiniCar/zh/",
-                "label": "MiniCar",
+                "url": "/Seeker/zh/",
+                "label": "Seeker",
                 "position": "left"
             },
             {

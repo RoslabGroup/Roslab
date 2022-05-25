@@ -104,7 +104,7 @@ such as:
                 "position": "left"
             },
             {
-                "url": "/MiniCar/zh/",
+                "url": "/Seeker/zh/",
                 "label": "Installation and Use",
                 "position": "left"
             },
