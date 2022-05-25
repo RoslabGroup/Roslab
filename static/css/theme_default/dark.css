@@ -25,7 +25,7 @@ code {
 }
 #sidebar .active > a, #navbar .active > a {
     background-color: #2d2d2d;
-    color: #4caf7d;
+    color: #1a416a;
 }
 #sidebar .active > a, #navbar .active > a, #navbar .active_parent > a {
     background-color: #2d2d2d;

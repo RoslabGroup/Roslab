@@ -1,56 +1,56 @@
 .gt-container .gt-btn {
-  border: 1px solid #4caf7d;
-  background-color: #4caf7d;
+  border: 1px solid #1a416a;
+  background-color: #1a416a;
 }
 
 .gt-container .gt-btn-preview {
-    color: #4caf7d;
+    color: #1a416a;
 }
 .dark .gt-container .gt-btn-preview {
   color: white;
 }
 
 .gt-container .gt-header-controls-tip {
-  color: #4caf7d;
+  color: #1a416a;
 }
 
 .gt-container .gt-svg svg {
-  fill: #4caf7d;
+  fill: #1a416a;
 }
 
 .gt-container a:hover {
-  color: #0a7d43;
-  border-color: #0a7d43;
+  color: #65819b;
+  border-color: #65819b;
 }
 
 .gt-container .gt-link {
-  border-bottom: 1px dotted #4caf7d;
+  border-bottom: 1px dotted #1a416a;
 }
 
 .gt-container a {
-  color: #4caf7d;
+  color: #1a416a;
 }
 
 .gt-container .gt-popup .gt-action.is--active::before {
-  background: #4caf7d;
+  background: #1a416a;
 }
 
 .gt-container .gt-btn-preview:hover {
-  border-color: #0a7d43;
-  color: #4caf7d;
+  border-color: #65819b;
+  color: #1a416a;
 }
 
 .gt-container .gt-user .is--poping .gt-ico svg {
-  fill: #4caf7d;
+  fill: #1a416a;
 }
 
 .gt-container .gt-btn-public:hover {
-  background-color: #0a7d43;
-  border-color: #0a7d43;
+  background-color: #65819b;
+  border-color: #65819b;
 }
 
 .gt-container .gt-comment-username {
-  color: #4caf7d;
+  color: #1a416a;
 }
 
 .gt-container .gt-btn-preview {
