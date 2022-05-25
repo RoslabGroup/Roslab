@@ -136,7 +136,7 @@ teedoc -f ./SUMMARY.md summary2yaml
     "route": {
         "docs": {
             "/MiniCar/zh/": "docs/MiniCar/zh",
-            "/develop/zh/": "docs/develop/zh",
+            "/rover/zh/": "docs/rover/zh",
         },
         "pages": {
             "/": "pages/index/zh",
@@ -154,9 +154,9 @@ teedoc -f ./SUMMARY.md summary2yaml
                     "src": "docs/MiniCar/en"
                 }
             ],
-            "/develop/zh/": [ {
-                    "url": "/develop/en/",
-                    "src": "docs/develop/en"
+            "/rover/zh/": [ {
+                    "url": "/rover/en/",
+                    "src": "docs/rover/en"
                 }
             ]
         },
@@ -206,8 +206,8 @@ teedoc -f ./SUMMARY.md summary2yaml
 "docs": {
     "/MiniCar/zh/": "docs/MiniCar/zh",
     "/MiniCar/en/": "docs/MiniCar/en",
-    "/develop/zh/": "docs/develop/zh",
-    "/develop/en/": "docs/develop/en"
+    "/rover/zh/": "docs/rover/zh",
+    "/rover/en/": "docs/rover/en"
 },
 ```
 `key`代表了最终生成的网站中文档的`url`, 后面的值则是对应的源文档路径，
@@ -254,8 +254,8 @@ teedoc -f ./SUMMARY.md summary2yaml
                 "position": "left"
             },
             {
-                "url": "/develop/zh/",
-                "label": "开发",
+                "url": "/rover/zh/",
+                "label": "Rover",
                 "position": "left"
             },
             {

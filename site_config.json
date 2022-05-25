@@ -9,7 +9,7 @@
     "route": {
         "docs": {
             "/MiniCar/zh/": "docs/MiniCar/zh",
-            "/develop/zh/": "docs/develop/zh"
+            "/Rover/zh/": "docs/Rover/zh"
         },
         "pages": {
             "/": "pages/index/zh"
@@ -29,9 +29,9 @@
                     "src": "docs/MiniCar/en"
                 }
             ],
-            "/develop/zh/": [ {
-                    "url": "/develop/en/",
-                    "src": "docs/develop/en"
+            "/Rover/zh/": [ {
+                    "url": "/Rover/en/",
+                    "src": "docs/Rover/en"
                 }
             ]
         },

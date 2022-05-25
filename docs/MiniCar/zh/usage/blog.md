@@ -108,8 +108,8 @@ cover: ./assets/cover.jpg
                 "position": "left"
             },
             {
-                "url": "/develop/zh/",
-                "label": "开发",
+                "url": "/rover/zh/",
+                "label": "Rover",
                 "position": "left"
             },
             {

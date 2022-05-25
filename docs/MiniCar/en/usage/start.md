@@ -136,7 +136,7 @@ The configuration file is in `json` format, for example:
     "route": {
         "docs": {
             "/MiniCar/zh/": "docs/MiniCar/zh",
-            "/develop/zh/": "docs/develop/zh",
+            "/rover/zh/": "docs/rover/zh",
         },
         "pages": {
             "/": "pages/index/zh",
@@ -154,9 +154,9 @@ The configuration file is in `json` format, for example:
                     "src": "docs/MiniCar/en"
                 }
             ],
-            "/develop/zh/": [ {
-                    "url": "/develop/en/",
-                    "src": "docs/develop/en"
+            "/rover/zh/": [ {
+                    "url": "/rover/en/",
+                    "src": "docs/rover/en"
                 }
             ]
         },
@@ -206,8 +206,8 @@ The configuration file is in `json` format, for example:
 "docs": {
     "/MiniCar/zh/": "docs/MiniCar/zh",
     "/MiniCar/en/": "docs/MiniCar/en",
-    "/develop/zh/": "docs/develop/zh",
-    "/develop/en/": "docs/develop/en"
+    "/rover/zh/": "docs/rover/zh",
+    "/rover/en/": "docs/rover/en"
 },
 ```
 The `key` represents the `url` of the document in the final generated website, and the following value is the corresponding source document path.
@@ -254,8 +254,8 @@ such as:
                 "position": "left"
             },
             {
-                "url": "/develop/zh/",
-                "label": "Development",
+                "url": "/rover/zh/",
+                "label": "Rover",
                 "position": "left"
             },
             {

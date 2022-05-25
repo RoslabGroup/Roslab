@@ -109,8 +109,8 @@ such as:
                 "position": "left"
             },
             {
-                "url": "/develop/zh/",
-                "label": "Development",
+                "url": "/Rover/zh/",
+                "label": "Rover",
                 "position": "left"
             },
             {
