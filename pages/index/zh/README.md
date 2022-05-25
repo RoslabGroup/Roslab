@@ -15,8 +15,8 @@ id: home_page
 <div id="fullpage">
     <div class="section" style="height: 100vh;">
         <div>
-            <h1><span>teedoc</span></h1>
-            <h3>简而全的开源静态网站/文档/博客生成器</h3>
+            <h1><span>大球的新坑</span></h1>
+            <h3>从前有一个大球，他喜欢挖坑</h3>
         </div>
         <div class="big_btn_wrapper">
             <div class="big_btn">
