@@ -10,10 +10,7 @@
 
 ## 符号说明
 
-> <img class="logo" src="/static/image/no.svg">禁止
-> <img class="logo" src="/static/image/attention.svg">注意事项
-> <img class="logo" src="/static/image/idea.svg">操作提示
-> <img class="logo" src="/static/image/doc.svg">词汇解释、参考信息
+> <img class="logo" src="/static/image/no.svg">禁止  <img class="logo" src="/static/image/attention.svg">注意事项  <img class="logo" src="/static/image/idea.svg">操作提示  <img class="logo" src="/static/image/doc.svg">词汇解释、参考信息
 
 ## 免责声明
 
