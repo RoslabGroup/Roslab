@@ -1,62 +1,37 @@
-开发 teedoc
+使用须知
 ===========
 
-
-## 获得源码
-
 ```
-git clone https://github.com/Neutree/teedoc
-```
-
-## 安装环境
-
-```
-sudo apt install python3 python3-pip
-cd teedoc
-pip3 install -r requirements.txt
+## 使用技巧
+> <img class="logo" src="/static/image/search.svg">快速搜索关键词
+> 本文档可以使用搜索功能快速搜索关键词，点击右上角搜索框即可搜索。
+> <img class="logo" src="/static/image/click.svg">通过目录转跳
+> 用户可通过目录了解文档的内容结构，点击标题即可转跳到相应目录。
 ```
 
-
-
-## 运行源码
-
-* 安装插件
+## 符号说明
 
 ```
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site install
+> <img class="logo" src="/static/image/no.svg">禁止
+> <img class="logo" src="/static/image/attention.svg">注意事项
+> <img class="logo" src="/static/image/idea.svg">操作提示
+> <img class="logo" src="/static/image/doc.svg">词汇解释、参考信息
 ```
 
-* 运行
+## 免责声明
 
 ```
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site build
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site serve
+本产品并非玩具，不适合未成年人使用。请勿让儿童接触本产品，在有儿童出现的场景操作时
+请务必特别小心。
+
+使用本产品之前，请仔细阅读本文档。本声明对安全使用本产品以及您的合法权益有着重要影响。
+本产品是一款移动机器人平台，在电源正常工作及各部件未损坏的情况下将提供安全可靠的移动控制。访问 https://doc.roslab.cc/ 获取最新说明和警告。 Roslab 保留更新本免责声明的权利。最新的免责声明，请以 Roslab 官网上及您邮件接收的版本为准。
+
+务必在使用产品之前仔细阅读本文档，了解您的合法权益、责任和安全说明；否则，可能带来财产损失、安全事故和人身安全隐患。一旦使用本产品，即视为您已理解、认可和接受本声明全部条款和内容。使用者承诺对自己的行为及因此而产生的所有后果负责。使用者承诺仅出于正当目的使用本产品，并且同意本条款及 Roslab 可能制定的任何相关政策或者准则。
+
+在法律允许的最大范围内，在任何情况下，Roslab 均不对任何间接性、后果性、惩罚性、偶然性、特殊性或刑罚性的损害，包括因您购买、使用或不能使用本产品而遭受的损失，承担责任（即使 Roslab 已被告知该等损失的可能性亦然）。
+
+在遵从法律法规的情况下，Roslab 享有对以上条款的最终解释权。Roslab 有权在不事先通
+知的情况下，对本注意事项的条款内容进行更新，改版或终止。在本指引下载服务终止以前，本注
+意事项长期有效。
 ```
-
-* 插件导入问题和更新调试问题
-
-在`site_config.json`中设置插件的本地路径，比如：
-```json
-"teedoc-plugin-markdown-parser":{
-            "from": "../../plugins/teedoc-plugin-markdown-parser"
-        }
-```
-然后在运行时将会优先从这个路径导入包（将这个路径加入`sys.path`，然后导入），而不是系统路径，可以保证修改及时生效
-
-
-
-
-## 调试
-
-在 vscode 中调试，直接调试单文件 `teedoc_debug.py` 文件即可
-
-
-## 参与贡献
-
-可以在 `github` `fork` 一份源码， 修改代码后， 提交`PR`(`pull request`) 即可
-
-
-
-
-
-
