@@ -1,26 +1,22 @@
 使用须知
 ===========
 
-```
 ## 使用技巧
 > <img class="logo" src="/static/image/search.svg">快速搜索关键词
 > 本文档可以使用搜索功能快速搜索关键词，点击右上角搜索框即可搜索。
 > <img class="logo" src="/static/image/click.svg">通过目录转跳
 > 用户可通过目录了解文档的内容结构，点击标题即可转跳到相应目录。
-```
+
 
 ## 符号说明
 
-```
 > <img class="logo" src="/static/image/no.svg">禁止
 > <img class="logo" src="/static/image/attention.svg">注意事项
 > <img class="logo" src="/static/image/idea.svg">操作提示
 > <img class="logo" src="/static/image/doc.svg">词汇解释、参考信息
-```
 
 ## 免责声明
 
-```
 本产品并非玩具，不适合未成年人使用。请勿让儿童接触本产品，在有儿童出现的场景操作时
 请务必特别小心。
 
@@ -34,4 +30,3 @@
 在遵从法律法规的情况下，Roslab 享有对以上条款的最终解释权。Roslab 有权在不事先通
 知的情况下，对本注意事项的条款内容进行更新，改版或终止。在本指引下载服务终止以前，本注
 意事项长期有效。
-```
