@@ -52,7 +52,7 @@ var _hmt = _hmt || [];
     
     <link rel="stylesheet" href="/static/css/custom.css" type="text/css"/>
     
-    <title>开发 teedoc - teedoc</title>
+    <title>使用须知 - teedoc</title>
     <script type="text/javascript">js_vars = {"teedoc-plugin-ad-hint": {"bg_color": "#ffcf89", "bg_color_hover": "#f57c00", "close_color": "#eab971", "color": "#a0421d", "color_hover": "white", "content": "\u8fd9\u662f\u4e00\u4e2a\u652f\u6301\u56fd\u9645\u5316\u7684\u6d88\u606f\u793a\u4f8b\u003c/br\u003e\u559c\u6b22\u9879\u76ee\u8bf7\u003ca target=\"_blank\" href=\"https://github.com/teedoc/teedoc\"\u003e\u70b9\u4e0b \u2606 star \u003c/a\u003e\u54e6~\ud83e\udd80\ud83e\udd80", "date": "2021-11-16 14:40", "label": "\u2606", "link_bg_color": "#e6ae5c", "link_color": "#e53935", "show_after_s": 432000, "show_times": 2, "type": "hint"}}</script>
 </head>
 <body class="type_doc">
@@ -118,7 +118,7 @@ var _hmt = _hmt || [];
                 <div id="content_body">
                     <div id="article_head">
                         <div id="article_title">
-                            <h1>开发 teedoc</h1>
+                            <h1>使用须知</h1>
                         </div>
                         <div id="article_tags">
                             <ul>
@@ -150,39 +150,33 @@ var _hmt = _hmt || [];
                         <span id="toc_btn"></span>
                     </div>
                     <div id="article_content">
-                        <h2 id="%E8%8E%B7%E5%BE%97%E6%BA%90%E7%A0%81">获得源码</h2>
+                        
+<pre class="language-none"><code class="language-none">## 使用技巧
+&gt; &lt;img class="logo" src="/static/image/search.svg"&gt;快速搜索关键词
+&gt; 本文档可以使用搜索功能快速搜索关键词，点击右上角搜索框即可搜索。
+&gt; &lt;img class="logo" src="/static/image/click.svg"&gt;通过目录转跳
+&gt; 用户可通过目录了解文档的内容结构，点击标题即可转跳到相应目录。</code></pre>
+<h2 id="%E7%AC%A6%E5%8F%B7%E8%AF%B4%E6%98%8E">符号说明</h2>
 
-<pre class="language-none"><code class="language-none">git clone https://github.com/Neutree/teedoc</code></pre>
-<h2 id="%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83">安装环境</h2>
+<pre class="language-none"><code class="language-none">&gt; &lt;img class="logo" src="/static/image/no.svg"&gt;禁止
+&gt; &lt;img class="logo" src="/static/image/attention.svg"&gt;注意事项
+&gt; &lt;img class="logo" src="/static/image/idea.svg"&gt;操作提示
+&gt; &lt;img class="logo" src="/static/image/doc.svg"&gt;词汇解释、参考信息</code></pre>
+<h2 id="%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</h2>
 
-<pre class="language-none"><code class="language-none">sudo apt install python3 python3-pip
-cd teedoc
-pip3 install -r requirements.txt</code></pre>
-<h2 id="%E8%BF%90%E8%A1%8C%E6%BA%90%E7%A0%81">运行源码</h2>
-<ul>
-<li>安装插件</li>
-</ul>
+<pre class="language-none"><code class="language-none">本产品并非玩具，不适合未成年人使用。请勿让儿童接触本产品，在有儿童出现的场景操作时
+请务必特别小心。
 
-<pre class="language-none"><code class="language-none">python3 teedoc/teedoc_main.py  -p examples/teedoc_site install</code></pre>
-<ul>
-<li>运行</li>
-</ul>
+使用本产品之前，请仔细阅读本文档。本声明对安全使用本产品以及您的合法权益有着重要影响。
+本产品是一款移动机器人平台，在电源正常工作及各部件未损坏的情况下将提供安全可靠的移动控制。访问 https://doc.roslab.cc/ 获取最新说明和警告。 Roslab 保留更新本免责声明的权利。最新的免责声明，请以 Roslab 官网上及您邮件接收的版本为准。
 
-<pre class="language-none"><code class="language-none">python3 teedoc/teedoc_main.py  -p examples/teedoc_site build
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site serve</code></pre>
-<ul>
-<li>插件导入问题和更新调试问题</li>
-</ul>
-<p>在<code>site_config.json</code>中设置插件的本地路径，比如：</p>
+务必在使用产品之前仔细阅读本文档，了解您的合法权益、责任和安全说明；否则，可能带来财产损失、安全事故和人身安全隐患。一旦使用本产品，即视为您已理解、认可和接受本声明全部条款和内容。使用者承诺对自己的行为及因此而产生的所有后果负责。使用者承诺仅出于正当目的使用本产品，并且同意本条款及 Roslab 可能制定的任何相关政策或者准则。
 
-<pre class="language-json"><code class="language-json">"teedoc-plugin-markdown-parser":{
-            "from": "../../plugins/teedoc-plugin-markdown-parser"
-        }</code></pre>
-<p>然后在运行时将会优先从这个路径导入包（将这个路径加入<code>sys.path</code>，然后导入），而不是系统路径，可以保证修改及时生效</p>
-<h2 id="%E8%B0%83%E8%AF%95">调试</h2>
-<p>在 vscode 中调试，直接调试单文件 <code>teedoc_debug.py</code> 文件即可</p>
-<h2 id="%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE">参与贡献</h2>
-<p>可以在 <code>github</code> <code>fork</code> 一份源码， 修改代码后， 提交<code>PR</code>(<code>pull request</code>) 即可</p>
+在法律允许的最大范围内，在任何情况下，Roslab 均不对任何间接性、后果性、惩罚性、偶然性、特殊性或刑罚性的损害，包括因您购买、使用或不能使用本产品而遭受的损失，承担责任（即使 Roslab 已被告知该等损失的可能性亦然）。
+
+在遵从法律法规的情况下，Roslab 享有对以上条款的最终解释权。Roslab 有权在不事先通
+知的情况下，对本注意事项的条款内容进行更新，改版或终止。在本指引下载服务终止以前，本注
+意事项长期有效。</code></pre>
 
                     </div>
                 </div>
